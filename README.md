@@ -1,65 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>shanghai</title>
-	<!-- 加载 CSS 文件 -->
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<!-- 头部导航栏 -->
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#">首页</a></li>
-				<li><a href="#">菜单</a></li>
-				<li><a href="#">预订</a></li>
-				<li><a href="#">关于我们</a></li>
-				<li><a href="#">联系我们</a></li>
-			</ul>
-		</nav>
-	</header>
-
-	<!-- 主要内容区域 -->
-	<main>
-		<!-- 主要图片轮播 -->
-		<div class="slider">
-			<img src="slider-1.jpg" alt="美食图片">
-			<img src="slider-2.jpg" alt="美食图片">
-			<img src="slider-3.jpg" alt="美食图片">
-		</div>
-
-		<!-- 热门菜品 -->
-		<section>
-			<h2>热门菜品</h2>
-			<div class="dish">
-				<img src="dish-1.jpg" alt="热门菜品图片">
-				<h3>烤鸭</h3>
-				<p>我们的烤鸭外皮酥脆，肉质鲜嫩，口感丰富。</p>
-			</div>
-			<div class="dish">
-				<img src="dish-2.jpg" alt="热门菜品图片">
-				<h3>红烧肉</h3>
-				<p>我们的红烧肉色香味俱佳，肉质鲜嫩。</p>
-			</div>
-			<div class="dish">
-				<img src="dish-3.jpg" alt="热门菜品图片">
-				<h3>清蒸鲈鱼</h3>
-				<p>我们的清蒸鲈鱼鲜嫩可口，是很多客人的最爱。</p>
-			</div>
-		</section>
-
-		<!-- 客户评价 -->
-		<section>
-			<h2>客户评价</h2>
-			<div class="review">
-				<img src="avatar-1.jpg" alt="客户头像">
-				<p>这里的菜真的很好吃，服务也很周到，下次还会再来。</p>
-				<span>——张先生</span>
-			</div>
-			<div class="review">
-				<img src="avatar-2.jpg" alt="客户头像">
-				<p>我很喜欢这里的环境，菜品也不错，值得推荐。</p>
-				<span>——李女士</span>
-			</
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>餐馆名 - 美味佳肴</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">首页</a></li>
+          <li><a href="#">菜单</a></li>
+          <li><a href="#">预订</a></li>
+          <li><a href="#">联系我们</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="hero">
+        <h1>欢迎来到餐馆名</h1>
+        <h2>最棒的食物和氛围</h2>
+        <a href="#" class="btn">预订</a>
+      </section>
+      
+      <section id="about">
+        <h2>关于我们</h2>
+        <p>我们是一家专注于提供美味佳肴和舒适氛围的餐厅。我们使用最优质的食材和配料来制作我们的菜肴，并提供最好的服务给我们的客人。</p>
+        <a href="#" class="btn">查看菜单</a>
+      </section>
+      
+      <section id="menu">
+        <h2>我们的菜单</h2>
+        <p>我们提供各种各样的菜肴和饮品，从开胃菜到主菜，以及精选的红酒和鸡尾酒。</p>
+        <a href="#" class="btn">查看菜单</a>
+      </section>
+      
+      <section id="reservation">
+        <h2>预订</h2>
+        <p>请填写以下表格进行预订。我们会尽快与您联系以确认您的预订。</p>
+        <form>
+          <label for="name">姓名：</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">电子邮件：</label>
+          <input type="email" id="email" name="email" required>
+          <label for="date">日期：</label>
+          <input type="date" id="date" name="date" required>
+          <label for="time">时间：</label>
+          <input type="time" id="time" name="time" required>
+          <label for="guests">客人数量：</label>
+          <input type="number" id="guests" name="guests" required>
+          <button type="submit" class="btn">提交预订</button>
+        </form>
+      </section>
+    </main>
+    
+    <footer>
+      <p>版权所有 © 2023 餐馆名</p>
+    </footer>
+  </body>
+</html>
