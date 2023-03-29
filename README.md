@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>餐馆名称 | 首页</title>
+    <title>shanghai | 首页</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
