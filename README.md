@@ -1,65 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>餐馆名称</title>
-	<!-- 加载 CSS 文件 -->
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<!-- 头部导航栏 -->
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#">首页</a></li>
-				<li><a href="#">菜单</a></li>
-				<li><a href="#">预订</a></li>
-				<li><a href="#">关于我们</a></li>
-				<li><a href="#">联系我们</a></li>
-			</ul>
-		</nav>
-	</header>
+LEASE AGREEMENT
 
-	<!-- 主要内容区域 -->
-	<main>
-		<!-- 主要图片轮播 -->
-		<div class="slider">
-			<img src="slider-1.jpg" alt="美食图片">
-			<img src="slider-2.jpg" alt="美食图片">
-			<img src="slider-3.jpg" alt="美食图片">
-		</div>
+This Lease Agreement (“Agreement”) is made and entered into on the ____ day of ____________, 20___, by and between ________________________ (hereinafter referred to as “Landlord”) and ________________________ (hereinafter referred to as “Tenant”).
 
-		<!-- 热门菜品 -->
-		<section>
-			<h2>热门菜品</h2>
-			<div class="dish">
-				<img src="dish-1.jpg" alt="热门菜品图片">
-				<h3>烤鸭</h3>
-				<p>我们的烤鸭外皮酥脆，肉质鲜嫩，口感丰富。</p>
-			</div>
-			<div class="dish">
-				<img src="dish-2.jpg" alt="热门菜品图片">
-				<h3>红烧肉</h3>
-				<p>我们的红烧肉色香味俱佳，肉质鲜嫩。</p>
-			</div>
-			<div class="dish">
-				<img src="dish-3.jpg" alt="热门菜品图片">
-				<h3>清蒸鲈鱼</h3>
-				<p>我们的清蒸鲈鱼鲜嫩可口，是很多客人的最爱。</p>
-			</div>
-		</section>
+1. Premises. Landlord hereby leases to Tenant the property located at ________________________ (hereinafter referred to as “Premises”) for residential purposes only.
 
-		<!-- 客户评价 -->
-		<section>
-			<h2>客户评价</h2>
-			<div class="review">
-				<img src="avatar-1.jpg" alt="客户头像">
-				<p>这里的菜真的很好吃，服务也很周到，下次还会再来。</p>
-				<span>——张先生</span>
-			</div>
-			<div class="review">
-				<img src="avatar-2.jpg" alt="客户头像">
-				<p>我很喜欢这里的环境，菜品也不错，值得推荐。</p>
-				<span>——李女士</span>
-			</
+2. Term. The term of this Agreement shall begin on ____________, 20___, and shall end on ____________, 20___, unless extended or terminated earlier pursuant to the terms of this Agreement.
+
+3. Rent. Tenant shall pay rent in the amount of $________ per month, payable in advance on the ____ day of each month, to Landlord at the following address: ________________________.
+
+4. Security Deposit. Tenant shall deposit with Landlord the sum of $________ as security for the faithful performance of Tenant’s obligations under this Agreement. Landlord may use the security deposit to remedy any default by Tenant under this Agreement, and any balance remaining shall be returned to Tenant at the end of the term of this Agreement.
+
+5. Use and Occupancy. Tenant shall use and occupy the Premises in a careful and lawful manner, and shall comply with all applicable laws, ordinances, rules, and regulations. Tenant shall not make any alterations or improvements to the Premises without Landlord’s prior written consent.
+
+6. Maintenance and Repair. Tenant shall keep the Premises in a clean and orderly condition, and shall promptly report any damage, malfunction, or defect to Landlord. Landlord shall be responsible for repairs to the Premises caused by normal wear and tear, and for repairs to any structural or mechanical systems of the Premises.
+
+7. Termination. This Agreement may be terminated by either party upon thirty (30) days’ written notice to the other party. Tenant shall be responsible for payment of rent and other charges through the effective date of termination.
+
+8. Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of Florida.
+
+9. Entire Agreement. This Agreement constitutes the entire agreement between the parties and supersedes all prior negotiations, understandings, and agreements between the parties.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first above written.
+
+Landlord: ________________________
+Tenant: ________________________
