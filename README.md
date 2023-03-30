@@ -20,9 +20,7 @@
 <body>
 	<canvas id="canvas"></canvas>
 	<script src="fireworks.js"></script>
-</body>
-</html>
-// 创建烟花对象
+	// 创建烟花对象
 function Firework(x, y, vx, vy, ax, ay, color, size, lifespan) {
 	this.x = x; // 烟花的 x 坐标
 	this.y = y; // 烟花的 y 坐标
@@ -73,3 +71,6 @@ function drawFireworks(dt) {
 	// 清空画布
 	ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
 	ctx.fillRect(0, 
+
+</body>
+</html>
