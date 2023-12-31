@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>访问我的网络商店</title>
+</head>
+<body>
+
+<!-- 添加一个按钮 -->
+<button id="storeButton">访问商店</button>
+
+<script>
+  // 获取按钮元素
+  var button = document.getElementById('storeButton');
+
+  // 添加点击事件监听器
+  button.addEventListener('click', function() {
+    // 在这里设置你的网络商店的网址
+    var storeUrl = 'https://your_store_url';
+
+    // 使用 window.location.href 实现页面跳转
+    window.location.href = storeUrl;
+  });
+</script>
+
+</body>
+</html>
