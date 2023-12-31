@@ -1,47 +1,108 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>午夜剧场</title>
+  <title>影视网站</title>
 
   <style>
     body {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
+      font-family: Arial, sans-serif;
       margin: 0;
+      padding: 0;
     }
 
-    #storeButton {
-      font-size: 24px;
-      padding: 15px 30px;
-      background-color: #000000; /* 背景色为黑色 */
-      color: #ffffff; /* 文字颜色为白色 */
-      border: 10px solid #000000; /* 设置边框宽度为原来的十倍，颜色同样为黑色 */
-      cursor: pointer;
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      margin: 0 10px;
+      font-size: 16px;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    #carousel {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    #carousel img {
+      width: 100%;
+      height: auto;
+    }
+
+    .movie-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .movie-card {
+      width: 200px;
+      margin: 20px;
+      text-align: center;
     }
   </style>
 </head>
 <body>
 
-<!-- 添加一个按钮 -->
-<button id="storeButton">访问午夜剧场</button>
+  <header>
+    <h1>影视网站</h1>
+  </header>
 
-<script>
-  // 获取按钮元素
-  var button = document.getElementById('storeButton');
+  <nav>
+    <a href="#">首页</a>
+    <a href="#">最新影片</a>
+    <a href="#">热门影片</a>
+    <a href="#">分类</a>
+    <a href="#">关于我们</a>
+  </nav>
 
-  // 添加点击事件监听器
-  button.addEventListener('click', function() {
-    // 在这里设置你的网络商店的网址
-    var storeUrl = 'https://www.mtvju.com';
+  <section>
+    <div id="carousel">
+      <!-- 轮播图图片 -->
+      <img src="image1.jpg" alt="影片1">
+      <img src="image2.jpg" alt="影片2">
+      <img src="image3.jpg" alt="影片3">
+    </div>
 
-    // 使用 window.location.href 实现页面跳转
-    window.location.href = storeUrl;
-  });
-</script>
+    <h2>最新影片</h2>
+    <div class="movie-list">
+      <!-- 影片列表 -->
+      <div class="movie-card">
+        <img src="movie1.jpg" alt="电影1">
+        <p>电影1</p>
+      </div>
+      <div class="movie-card">
+        <img src="movie2.jpg" alt="电影2">
+        <p>电影2</p>
+      </div>
+      <div class="movie-card">
+        <img src="movie3.jpg" alt="电影3">
+        <p>电影3</p>
+      </div>
+      <!-- 在此添加更多影片卡片 -->
+    </div>
+  </section>
+
+  <!-- 在此添加更多页面部分，如热门影片、分类等 -->
 
 </body>
 </html>
