@@ -3,12 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>访问我的网络商店</title>
+  <title>午夜剧场</title>
+
+  <style>
+    /* 添加一些样式，使按钮更大 */
+    #storeButton {
+      font-size: 18px;
+      padding: 10px 20px;
+    }
+  </style>
 </head>
 <body>
 
 <!-- 添加一个按钮 -->
-<button id="storeButton">午夜剧场</button>
+<button id="storeButton">访问午夜剧场</button>
 
 <script>
   // 获取按钮元素
@@ -17,7 +25,7 @@
   // 添加点击事件监听器
   button.addEventListener('click', function() {
     // 在这里设置你的网络商店的网址
-    var storeUrl = 'https://mtvju.com';
+    var storeUrl = 'https://www.mtvju.com';
 
     // 使用 window.location.href 实现页面跳转
     window.location.href = storeUrl;
